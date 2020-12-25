@@ -29,7 +29,7 @@ type information struct {
 }
 */
 func displayHtml(c *gin.Context) {
-	//info := information{Name: "Sumit Awasthi", Age: 23}
+	//info := information{Name: "Naveen", Age: 25}
 	c.HTML(http.StatusOK, "form.html", gin.H{
 		"hl": "form", // info)
 	},)
